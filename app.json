@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "DEVember-test",
+    "slug": "DEVember-test",
+    "version": "1.0.0",
+    "scheme": "devember",
+    "orientation": "portrait",
+    "icon": "./assets/facebook-logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/facebook-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/facebook-logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/facebook-logo.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ]
+  }
+}
