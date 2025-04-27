@@ -2,20 +2,24 @@ import { Stack } from "expo-router";
 import { View, Text, StyleSheet, Button } from "react-native";
 import LottieView from 'lottie-react-native';
 import { useRef } from "react";
+import Animated, { BounceIn, BounceOut, FadeIn, FadeOut, ZoomIn, ZoomOut } from 'react-native-reanimated';
 
+const AnimatedLottieView=Animated.createAnimatedComponent(LottieView);
 
 export default function Splash() {
 
     const animation = useRef<LottieView>(null);
+    
 
     return (
-        <View style={styles.container}>
+        <Animated.View entering={FadeIn.duration(1000)} exiting={FadeOut} style={styles.container}>
 
             <Stack.Screen options={{ headerShown: false }} />
 
-            <Text style={styles.text}>Facebook</Text>
+            {/* <Text style={styles.text}>Facebook</Text> */}
 
-            <LottieView
+            <AnimatedLottieView
+                exiting={ZoomIn.duration(500)}
                 autoPlay
                 ref={animation}
                 style={{
@@ -33,7 +37,7 @@ export default function Splash() {
 
 
 
-        </View>
+        </Animated.View>
     )
 }
 
@@ -46,7 +50,7 @@ const styles = StyleSheet.create({
     },
 
     text: {
-        color: 'blue',
+        color: 'white',
         alignSelf: 'center',
         fontSize: 50,
 
