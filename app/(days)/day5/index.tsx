@@ -5,9 +5,9 @@ export default function index() {
     return (
         <View>
             <Stack.Screen options={{ title: "Maps" }} />
-            <Text>Airbnb maps</Text>
+            <Text>Aiirbnb Maps</Text>
             <Link href="/day5/airbnb" asChild>
-                <Button title="Go to AIRBNB Screen" />
+                <Button title="Go to AIRBNB Maps" />
             </Link>
         </View>
     )

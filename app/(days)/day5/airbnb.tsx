@@ -1,10 +1,11 @@
 import { Stack } from "expo-router";
-import { View } from "react-native";
+import { View, Text } from "react-native";
 
-export default function airbnbScreen() {
+export default function airbnb() {
     return (
         <View>
-            <Stack.Screen options={{ headerShown: false }} />
+            <Stack.Screen options={{ title: "Maps" }} />
+            <Text>Airbnb Maps</Text>
         </View>
     )
 }
