@@ -4,12 +4,12 @@ import LottieView from 'lottie-react-native';
 import { useRef } from "react";
 import Animated, { BounceIn, BounceOut, FadeIn, FadeOut, ZoomIn, ZoomOut } from 'react-native-reanimated';
 
-const AnimatedLottieView=Animated.createAnimatedComponent(LottieView);
+const AnimatedLottieView = Animated.createAnimatedComponent(LottieView);
 
 export default function Splash() {
 
     const animation = useRef<LottieView>(null);
-    
+
 
     return (
         <Animated.View entering={FadeIn.duration(1000)} exiting={FadeOut} style={styles.container}>
