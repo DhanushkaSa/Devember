@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "latitude": 6.9271,
+    "longitude": 79.8612,
+    "price": 350,
+    "title": "Modern Apartment in Colombo City",
+    "numberOfStars": 5,
+    "rating": 4.8,
+    "publicSupportImage": "https://picsum.photos/seed/colombo/600/400"
+  },
+  {
+    "id": 1,
+    "latitude": 7.2906,
+    "longitude": 80.6337,
+    "price": 280,
+    "title": "Hill View Apartment in Kandy",
+    "numberOfStars": 4,
+    "rating": 4.6,
+    "publicSupportImage": "https://picsum.photos/seed/kandy/600/400"
+  },
+  {
+    "id": 2,
+    "latitude": 6.0535,
+    "longitude": 80.2210,
+    "price": 320,
+    "title": "Coastal Apartment in Galle Fort",
+    "numberOfStars": 5,
+    "rating": 4.9,
+    "publicSupportImage": "https://picsum.photos/seed/galle/600/400"
+  },
+  {
+    "id": 3,
+    "latitude": 9.6615,
+    "longitude": 80.0255,
+    "price": 220,
+    "title": "Newly Built Apartment in Jaffna",
+    "numberOfStars": 4,
+    "rating": 4.5,
+    "publicSupportImage": "https://picsum.photos/seed/jaffna/600/400"
+  },
+  {
+    "id": 4,
+    "latitude": 8.3114,
+    "longitude": 80.4037,
+    "price": 240,
+    "title": "Apartment near Sacred City",
+    "numberOfStars": 4,
+    "rating": 4.4,
+    "publicSupportImage": "https://picsum.photos/seed/sacredcity/600/400"
+  },
+  {
+    "id": 5,
+    "latitude": 8.5874,
+    "longitude": 81.2152,
+    "price": 260,
+    "title": "Seaside Apartment in Trinco",
+    "numberOfStars": 4,
+    "rating": 4.7,
+    "publicSupportImage": "https://picsum.photos/seed/trincomalee/600/400"
+  },
+  {
+    "id": 6,
+    "latitude": 7.4868,
+    "longitude": 80.3624,
+    "price": 200,
+    "title": "City View Apartment Kurunegala",
+    "numberOfStars": 3,
+    "rating": 4.2,
+    "publicSupportImage": "https://picsum.photos/seed/kurunegala/600/400"
+  },
+  {
+    "id": 7,
+    "latitude": 6.9934,
+    "longitude": 81.0544,
+    "price": 180,
+    "title": "Mountain Apartment near Ella",
+    "numberOfStars": 4,
+    "rating": 4.3,
+    "publicSupportImage": "https://picsum.photos/seed/ella/600/400"
+  },
+  {
+    "id": 8,
+    "latitude": 7.8731,
+    "longitude": 80.7718,
+    "price": 195,
+    "title": "Apartment in Dambulla Town",
+    "numberOfStars": 3,
+    "rating": 4.0,
+    "publicSupportImage": "https://picsum.photos/seed/dambulla/600/400"
+  },
+  {
+    "id": 9,
+    "latitude": 6.1442,
+    "longitude": 80.1016,
+    "price": 270,
+    "title": "Oceanview Apartment near Matara",
+    "numberOfStars": 4,
+    "rating": 4.6,
+    "publicSupportImage": "https://picsum.photos/seed/matara/600/400"
+  }
+]
